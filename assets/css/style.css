@@ -3,15 +3,16 @@ body,html {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     background-image: url(../images/oriental.png);
-    margin:0 0 150px;
+    margin:0;
     padding:0;
-    min-height: 100%;
+   
     
 
 }
 
 p {
-    line-height: 2;
+    line-height: 40px;
+    font-size: 16px;
 }
 
 h1, h2 {
@@ -34,11 +35,11 @@ h1, h2 {
 .header {
     background-color: #4aaaa5;
     color: #ffffff;
-    margin-left: 238px;
+    margin-left: 208px;
     margin-right: 50px;
     padding: 25px;
     margin-top: 0px;
-    float: left;
+    display: inline-block;
 
 }
 
@@ -68,7 +69,8 @@ a:visited {
     background-color: #ffffff;
     padding: 30px;
     margin-top: 40px;
-    width: 900px;
+    margin-bottom:150px;
+    width: 960px;
     overflow: auto;
     margin-left: auto;
     margin-right: auto;
@@ -104,16 +106,17 @@ img{
 }
 
 .bottomBar {
-    background-color:#666666;
-    margin-top: 150px;
-    padding: 15px;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: gray;
+    color: white;
     text-align: center;
-    border-top-color: #4aaaa5;
-    border-top-width: 10px;
-    border-style: solid;
-    width: 100%;
-    position: fixed;
+    height:70px;
+    border-top: #4aaaa5 solid 5px;
     
+
 }
 
 .smallTextBox {
@@ -174,10 +177,7 @@ img{
     color: #ffffff;
     font-size: 16px;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     
 }
 
-#copyright {
-    color: #cccccc;
-}
