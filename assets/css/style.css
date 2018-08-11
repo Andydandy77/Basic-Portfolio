@@ -160,7 +160,7 @@ img{
 
 .portfolioItem {
     float:left;
-    margin-right: 100px;
+    margin-right: 120px;
 }
 
 .portfolioImg {
@@ -177,7 +177,7 @@ img{
     color: #ffffff;
     font-size: 16px;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     
 }
 
