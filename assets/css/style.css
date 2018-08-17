@@ -35,7 +35,7 @@ h1, h2 {
 .header {
     background-color: #4aaaa5;
     color: #ffffff;
-    margin-left: 208px;
+    margin-left: 210px;
     margin-right: 50px;
     padding: 25px;
     margin-top: 0px;
@@ -113,9 +113,9 @@ img{
     background-color: gray;
     color: white;
     text-align: center;
-    height:70px;
+    height:60px;
     border-top: #4aaaa5 solid 5px;
-    
+    padding-top: 20px;
 
 }
 
@@ -125,13 +125,13 @@ img{
     border-color:#cccccc;
     border-width: 1px;
     margin-bottom: 10px;
-    width: 898px;
+    width: 95%;
     
 }
 
 .bigTextBox {
     height: 250px;
-    width: 898px;
+    width: 95%;
     border-style:solid;
     border-color:#cccccc;
     border-width: 1px;
@@ -160,24 +160,138 @@ img{
 
 .portfolioItem {
     float:left;
-    margin-right: 120px;
+    width: 30%;
+    margin-right: 40px;
 }
 
 .portfolioImg {
-    height: 180px;
-    width: 200px;
+    height: auto;
+    width: 100%;
 }
 
 .portfolioText {
     background-color: #4aaaa5;
     height: 50px;
-    width: 200px;
+    width: 100%;
     position: relative;
-    top: 150px;
+    top: 200px;
     color: #ffffff;
     font-size: 16px;
     text-align: center;
     line-height: 50px;
+    
+}
+
+@media screen and (max-width:980px) {
+   .header {
+       margin-left: 50px;
+   }
+   
+   .mainSectionContent {
+       margin-left: 50px;
+       width:45%;
+
+   }
+
+   .links {
+       margin-right: 80px;
+   }
+
+   .portfolioItem {
+        width: 40%;
+        margin-left: 30px;
+        margin-right: 0;
+
+       
+   }
+
+   .portfolioText {
+       position: relative;
+       top: 150px;
+   }
+
+   
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        margin-left: 20px;
+    }
+    
+    .mainSectionContent {
+        margin-left: 20px;
+        width:87%;
+ 
+    }
+ 
+    .links {
+        margin-right: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 15px;
+    }
+
+    .portfolioText {
+        position: relative;
+        top: 200px;
+    }
+ 
+    .portfolioItem {
+        width: 40%;
+        margin-left: 45px;
+        margin-right: 0;
+
+       
+   }
+
+
+    
+}
+
+@media screen and (max-width:640px) {
+
+    .header {
+        margin: 0 0 0 0;
+        display: block;
+        text-align: center;
+    }
+    
+    .mainSectionContent {
+        margin-left: 10px;
+        width:87%;
+ 
+    }
+ 
+    .links {
+      padding: 0;
+      margin: 0;
+      float: none;
+      position: relative;
+      top: 20px;
+      text-align: center;
+    }
+
+    .topBar {
+        height:150px;
+        
+    }
+
+    .portfolioItem {
+        float:left;
+        margin: 0 0 25px 0;
+        width: 100%;
+    }
+    .portfolioImg {
+       width: 100%;
+       height: auto;
+    }
+
+    .portfolioText {
+        position: relative;
+        top: 375px;
+    }
+
+
     
 }
 
